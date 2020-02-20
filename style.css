@@ -12,6 +12,11 @@
 body {
   margin: 0;
   font-family: 'Lato, sans-serif';
+  transition: transform 0.3s;
+}
+
+body.show-nav {
+  transform: translateX(200px);
 }
 
 nav {
